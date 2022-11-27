@@ -1,0 +1,34 @@
+{
+  "name": "atbmtt-des-encryption",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhpc01/ATBMTT_DESencryption.git"
+  },
+  "author": "minhtt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://https://github.com/minhpc01/ATBMTT_DESencryption/issues"
+  },
+  "homepage": "https://github.com/minhpc01/ATBMTT_DESencryption#readme",
+  "devDependencies": {
+    "electron": "^20.0.2",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.8",
+    "axios": "^0.27.2",
+    "docx-preview": "^0.1.11",
+    "file-saver": "^2.0.5",
+    "html-docx-js": "^0.3.1",
+    "html-to-docx": "^1.4.0",
+    "mammoth": "^1.5.1",
+    "mammoth-colors": "^1.0.2"
+  }
+}

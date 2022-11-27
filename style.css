@@ -1,0 +1,150 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.server {
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.server__input-plainText {
+    display: flex;
+    align-items: center;
+}
+
+.server__output-cipherText {
+    display: flex;
+    align-items: center;
+}
+
+.server__btn-Encrypt {
+    transform: translateX(30%);
+    margin: 20px;
+}
+
+.server__inputKey {
+    margin: 20px;
+    transform: translateX(10%);
+}
+
+.navigate {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* client  */
+
+.client {
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid black
+}
+
+.server__input-cipherText {
+    display: flex;
+    align-items: center;
+}
+
+.server__btn-Decrypt {
+    transform: translateX(30%);
+    margin: 20px;
+}
+
+.server__output-cipherText {
+    display: flex;
+    align-items: center;
+}
+
+.control{
+    width: inherit;
+    height: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.radio{
+    margin: 10px 0 0 0;
+    width: 100px;
+    height: 30px;
+}
+
+#h1-encrypt-key, #h1-decrypt-key{
+    width: inherit;
+    height: inherit;
+}
+
+.encrypted-information{
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.retrieve-information{
+    word-wrap: break-word;
+    overflow-y: scroll; 
+}
+
+/* add CSS */
+.inputDocxPlainText{
+    white-space: pre-line;
+    width: 336.800px;
+    height: 152px;
+    padding: 2px;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+.hidden{
+    display: none;
+}
+
+.input-encrypt{
+    display: flex;
+    flex-direction: row;
+}
+.button-choosefile{
+    height: 26px;
+    width: 128px;
+}
+button{
+    color: aqua;
+    background-color: blue;
+    border-color:blue ;
+}
+h1{
+    color:  rgb(46, 182, 41);
+}
+
+
+/* testtttt */
+.panel-heading {
+    text-align: center;
+    padding: 25px 0;
+  }
+  .tab-pane {
+    border: 1px solid rgb(24, 184, 104);
+    margin-top: 20px;
+    padding: 12px 8px;
+  }
+  h3 {
+    color: rgb(46, 182, 41);
+  }
+  .toolbar-item:hover {
+      cursor: pointer;
+      background-color: rgb(241, 56, 10);
+      color: white;
+  }
+  .toolbar-item {
+      padding: 3px 17px;
+  }
+  
